@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    android:layout_height="50dp"
+    android:layout_width="match_parent"
+    android:padding="0dp"
+    android:paddingBottom="0dp"
+    android:layout_gravity="bottom"
+    android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#44000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="left"
+        android:paddingRight="10dp"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/back_button"
+            android:layout_weight="2">
+
+                <applications.kantedal.hejablvitt.view.MaterialFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left|center"
+                    android:textSize="20dp"
+                    android:text="@string/icon_back_arrow"
+                    android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+
+
+            <applications.kantedal.hejablvitt.view.HamsterText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                android:text="heja blåvitt"/>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_weight="2">
+
+            <com.andexert.library.RippleView
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="right|center"
+                    android:orientation="horizontal"
+                    android:id="@+id/commentsBtn">
+
+                    <TextView
+                        android:id="@+id/commentsCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:textSize="15dp"
+                        android:text="0"
+                        android:gravity="center" />
+
+                    <applications.kantedal.hejablvitt.view.MaterialFont
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="bottom"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/icon_comments"
+                        android:gravity="center" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="right|center"
+                    android:orientation="horizontal"
+                    android:id="@+id/webViewBtn">
+
+                    <applications.kantedal.hejablvitt.view.MaterialFont
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:text="@string/icon_web_view"
+                        android:gravity="center" />
+
+                </LinearLayout>
+
+
+            </com.andexert.library.RippleView>
+
+        </FrameLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>

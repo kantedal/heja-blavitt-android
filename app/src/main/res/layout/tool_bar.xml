@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<applications.kantedal.hejablvitt.view.CustomToolbar
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    app:contentInsetStart="0dp"
+    app:contentInsetEnd="0dp"
+    app:contentInsetLeft="0dp"
+    app:contentInsetRight="0dp"
+    android:clipToPadding="false"
+    android:layout_gravity="bottom"
+    android:minHeight="?android:attr/actionBarSize"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#44000000"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <applications.kantedal.hejablvitt.view.HamsterText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                android:text="heja blåvitt"/>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/action_button"
+            android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:layout_width="50dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true">
+
+            <applications.kantedal.hejablvitt.view.MaterialFont
+                android:id="@+id/sortButton"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="23dp"
+                android:visibility="gone"
+                android:text="@string/icon_sort"/>
+
+            <applications.kantedal.hejablvitt.view.MaterialFont
+                android:id="@+id/commentsButton"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="23dp"
+                android:text="@string/icon_comments"/>
+
+            <applications.kantedal.hejablvitt.view.MaterialFont
+                android:id="@+id/newsButton"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="23dp"
+                android:text="@string/icon_news" />
+
+
+        </FrameLayout>
+    </LinearLayout>
+
+</applications.kantedal.hejablvitt.view.CustomToolbar>

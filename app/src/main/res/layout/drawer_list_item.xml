@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:background="@drawable/list_item_selector"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center|left"
+    android:paddingLeft="10dp"
+    android:id="@+id/drawer_list_item_layout">
+
+    <applications.kantedal.hejablvitt.view.MaterialFont
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/drawer_list_item_icon"
+        android:text="@string/icon_comments"
+        android:visibility="gone"
+        android:textSize="18dp"
+        android:layout_marginRight="5dp"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/drawer_list_item_title"
+        android:textSize="14dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="drawer item"/>
+
+</LinearLayout>

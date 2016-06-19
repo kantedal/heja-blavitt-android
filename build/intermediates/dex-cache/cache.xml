@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/filles-dator/Desktop/HejaBlavitt/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/filles-dator/Desktop/HejaBlavitt/app/build/intermediates/pre-dexed/release/internal_impl-22.2.1-cd08d22a53883a9ebe51477e315737f71750af84.jar" />
+    </item>
+    <item
+        jar="/Users/filles-dator/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/Users/filles-dator/Desktop/HejaBlavitt/app/build/intermediates/pre-dexed/release/bolts-android-1.2.0-04738312c7ff564cdf4fac29a5cf408069890b1a.jar" />
+    </item>
+    <item
+        jar="/Users/filles-dator/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/filles-dator/Desktop/HejaBlavitt/app/build/intermediates/pre-dexed/release/support-annotations-22.2.1-253b32739cf236b82983225832e7fc4ec51af284.jar" />
+    </item>
+    <item
+        jar="/Users/filles-dator/Desktop/HejaBlavitt/app/build/intermediates/exploded-aar/com.github.nirhart/parallaxscroll/1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2574796fab3c6145ca6170821badd305f5e03669">
+        <dex dex="/Users/filles-dator/Desktop/HejaBlavitt/app/build/intermediates/pre-dexed/release/classes-745f417d8d0beda949f9380cf891bc8ba2d7f3aa.jar" />
+    </item>
+    <item
+        jar="/Users/filles-dator/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/1.7.2/112366d8158749e25532ebce162232c6e0fb20a5/gson-1.7.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="112366d8158749e25532ebce162232c6e0fb20a5">
+        <dex dex="/Users/filles-dator/Desktop/HejaBlavitt/app/build/intermediates/pre-dexed/release/gson-1.7.2-4767861aa58c7aa75815389d3b2a543433c155b9.jar" />
+    </item>
+    <item
+        jar="/Users/filles-dator/Desktop/HejaBlavitt/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/filles-dator/Desktop/HejaBlavitt/app/build/intermediates/pre-dexed/release/classes-15e3a7b45c327a43d61904c8d933cb6ee56c3138.jar" />
+    </item>
+    <item
+        jar="/Users/filles-dator/Desktop/HejaBlavitt/app/libs/Parse-1.9.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fe739334780fe321141e62720822c2d456061899">
+        <dex dex="/Users/filles-dator/Desktop/HejaBlavitt/app/build/intermediates/pre-dexed/release/Parse-1.9.2-93cacf5aff578451047491ac4fcd36ccad9cc6a5.jar" />
+    </item>
+    <item
+        jar="/Users/filles-dator/Desktop/HejaBlavitt/app/build/intermediates/exploded-aar/com.sromku/simple-fb/4.0.6/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bc8850996b8b260c2db97e61ab0e8540a7f18b17">
+        <dex dex="/Users/filles-dator/Desktop/HejaBlavitt/app/build/intermediates/pre-dexed/release/classes-aaec6caa8f1ef4f99179731a5c2757a493d5f6d9.jar" />
+    </item>
+    <item
+        jar="/Users/filles-dator/Desktop/HejaBlavitt/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="/Users/filles-dator/Desktop/HejaBlavitt/app/build/intermediates/pre-dexed/release/classes-c5994a1225fc596097cf019f9f024112fc66224a.jar" />
+    </item>
+    <item
+        jar="/Users/filles-dator/Desktop/HejaBlavitt/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="11842de6a309c447b3a3d60d73ad637a87c58994">
+        <dex dex="/Users/filles-dator/Desktop/HejaBlavitt/app/build/intermediates/pre-dexed/release/classes-25b50a12a4a3898b7de7796c687504bce7990c6c.jar" />
+    </item>
+    <item
+        jar="/Users/filles-dator/Desktop/HejaBlavitt/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="54732a25e1d3eb1a88dfc4f969eff4f3d4476f2c">
+        <dex dex="/Users/filles-dator/Desktop/HejaBlavitt/app/build/intermediates/pre-dexed/release/classes-9ec4909f7e79f40539c0993da40612edacbfaedb.jar" />
+    </item>
+    <item
+        jar="/Users/filles-dator/Desktop/HejaBlavitt/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/filles-dator/Desktop/HejaBlavitt/app/build/intermediates/pre-dexed/release/classes-d949225db8f2675f7efb10ffb9e15704f80a0fef.jar" />
+    </item>
+    <item
+        jar="/Users/filles-dator/Desktop/HejaBlavitt/app/build/intermediates/exploded-aar/com.github.traex.rippleeffect/library/1.3/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ee17feb34ce104bc17d1a1e64346d7f779ebb066">
+        <dex dex="/Users/filles-dator/Desktop/HejaBlavitt/app/build/intermediates/pre-dexed/release/classes-be2b82979ea341e5b2ccbf9262143373dfc3270c.jar" />
+    </item>
+
+</items>

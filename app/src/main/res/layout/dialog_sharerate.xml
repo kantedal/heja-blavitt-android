@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#dd000000"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Dela eller betygsätt appen!"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textSize="16dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Hjälp till att sprida appen - dela eller betygsätt nedan."/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/dialog_sharerate_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="#11ffffff"
+            android:layout_margin="1dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <applications.kantedal.hejablvitt.view.MaterialFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="#fff"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/icon_rate"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:layout_gravity="center"
+                    android:textAllCaps="true"
+                    android:text="Betygsätt" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/dialog_sharerate_share"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="#11ffffff"
+            android:layout_margin="1dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <applications.kantedal.hejablvitt.view.MaterialFont
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:layout_gravity="center"
+                    android:textSize="15dp"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/icon_facebook"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:textAllCaps="true"
+                    android:text="Dela" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/dialog_sharerate_no"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="#11ffffff"
+            android:layout_margin="1dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-condensed"
+                android:textAllCaps="true"
+                android:text="Senare" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout> 

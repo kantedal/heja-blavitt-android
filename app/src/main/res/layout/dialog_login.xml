@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#bb000000"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Välkommen till Heja Blåvitt!"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Välj ett användarnamn för att kunna tycka till om nyheter och delta i diskussioner. "/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/error_message"
+        android:textColor="#f55"
+        android:layout_marginBottom="15dp"
+        android:text="*Användarnamn upptaget "/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#0affffff">ac
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textVisiblePassword"
+            android:hint="Ditt användarnamn.."
+            android:background="#00000000"
+            android:gravity="center"
+            android:ems="10" >
+
+        </EditText>
+
+    </FrameLayout>
+
+        <requestFocus />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrera" />
+
+</LinearLayout> 

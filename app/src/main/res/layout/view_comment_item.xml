@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/commentContainer"
+    android:paddingLeft="10dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="30dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:weightSum="5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/upVoteButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_weight="2"
+
+            android:layout_margin="0dp"
+            android:gravity="bottom|center_horizontal"
+            android:textColor="#fff"
+            android:textSize="32dp"
+            android:text="@string/icon_upVote"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/likesText"
+            android:layout_weight="1"
+            android:layout_margin="0dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:fontFamily="sans-serif-light"
+            android:textSize="20dp"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/downVoteButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_weight="2"
+            android:layout_margin="0dp"
+            android:gravity="top|center_horizontal"
+            android:textColor="#fff"
+            android:textSize="32dp"
+            android:text="@string/icon_downVote"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="90dp"
+        android:baselineAligned="false"
+        android:id="@+id/newsClickContainer"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:gravity="center|left"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        android:layout_marginRight="5dp">
+
+        <TextView
+            android:id="@+id/commentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif-light"
+            android:text="ContentSnippet"
+            android:layout_gravity="top" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="username"
+                android:gravity="center|left"
+                android:fontFamily="sans-serif-condensed"
+                android:id="@+id/username"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:id="@+id/dateText"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="15dp"
+                android:layout_marginRight="25dp"
+                android:layout_gravity="center|right" />
+
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

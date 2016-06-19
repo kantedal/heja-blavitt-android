@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="100dp"
+    android:baselineAligned="false"
+    android:id="@+id/newsClickContainer"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="5dp"
+    android:layout_marginRight="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="2dp"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-light"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Laddar.." />
+
+</LinearLayout>

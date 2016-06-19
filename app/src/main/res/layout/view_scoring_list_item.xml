@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/view_scoring_list_item_background"
+    android:layout_width="match_parent"
+    android:layout_height="34dp">
+
+    <TextView
+        android:id="@+id/view_scoring_list_item_position"
+        android:layout_width="35dp"
+        android:textSize="16dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/view_scoring_list_item_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|left"
+        android:text="Player"
+        android:fontFamily="sans-serif-light"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/view_scoring_list_item_team"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:gravity="center|left"
+        android:text="Team" />
+
+    <TextView
+        android:id="@+id/view_scoring_list_item_goals"
+        android:layout_width="40dp"
+        android:textSize="16dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="0"
+        />
+
+</LinearLayout>

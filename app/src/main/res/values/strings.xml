@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Heja Blåvitt</string>
+    <string name="app_id">558745864257581</string>
+
+    <string-array name="sort_news">
+        <item>Senaste nytt</item>
+        <item>Mest läst</item>
+        <item>Mest gillade nyheter</item>
+        <item>Mest ogillade nyheter</item>
+    </string-array>
+
+    <string-array name="statistics">
+        <item>Allsvenskan</item>
+        <item>Laget</item>
+        <item>Matcher</item>
+        <item>Skytteliga</item>
+        <item>Publikliga</item>
+    </string-array>
+
+    <string-array name="sort_discussion">
+        <item>Senaste kommentarer</item>
+        <item>Mest läst</item>
+        <item>Mest gillade kommentarer</item>
+        <item>Mest ogillade kommentarer</item>
+    </string-array>
+
+    <string name="icon_heart">&#xf15f;</string>
+    <string name="icon_close">&#xf136;</string>
+    <string name="icon_news">&#xf1ea;</string>
+    <string name="icon_discussion">&#xf261;</string>
+    <string name="icon_downVote">&#xf2f9;</string>
+    <string name="icon_upVote">&#xf2fc;</string>
+    <string name="icon_sort">&#xf1cd;</string>
+    <string name="icon_gear">&#xf1c6;</string>
+    <string name="icon_comments">&#xf261;</string>
+    <string name="icon_post_comment">&#xf262;</string>
+    <string name="icon_web_view">&#xf326;</string>
+    <string name="icon_back_arrow">&#xf2ea;</string>
+    <string name="icon_home">&#xf175;</string>
+    <string name="icon_entry">&#xf150;</string>
+    <string name="icon_list_item">&#xf2f6;</string>
+    <string name="icon_check">&#xf269;</string>
+    <string name="icon_facebook">&#xf343;</string>
+    <string name="icon_rate">&#xf27b;</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

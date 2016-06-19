@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/discussionListLayout"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="50dp">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/activity_main_swipe_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/feedRecyclerView"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity$PlaceholderFragment"/>
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/addDiscussionEntryButton"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="0dp"
+        android:alpha="1"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="10dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="#fff">
+
+        <TextView
+            android:id="@+id/addDiscussionEntry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_gravity="center"
+            android:textColor="#ff00195b"
+            android:gravity="center"
+            android:textSize="35dp"
+            android:text="+" />
+
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="9"
+        android:padding="2dp"
+        android:id="@+id/addDiscussionEntryField"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_gravity="bottom"
+        android:background="#33000000">
+
+        <com.andexert.library.RippleView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/postDiscussionEntryButton"
+            android:layout_weight="4">
+
+            <applications.kantedal.hejablvitt.view.MaterialFont
+                android:id="@+id/switchViewIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="25dp"
+                android:layout_marginLeft="5dp"
+                android:text="@string/icon_post_comment"
+                android:gravity="center" />
+
+        </com.andexert.library.RippleView>
+
+        <EditText
+            android:id="@+id/discussionTextField"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:inputType="textCapSentences"
+            android:lines="1"
+            android:maxLines="1"
+            android:textSize="15dp"
+            android:hint="Nytt inlägg..."/>
+
+        <com.andexert.library.RippleView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/close_discussion_field"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_weight="4">
+
+            <applications.kantedal.hejablvitt.view.MaterialFont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="25dp"
+                android:alpha="0.6"
+                android:textColor="#fff"
+                android:text="@string/icon_close" />
+
+        </com.andexert.library.RippleView>
+
+    </LinearLayout>
+
+</FrameLayout>

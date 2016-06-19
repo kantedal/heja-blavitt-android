@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:gravity="center">
+
+    <applications.kantedal.hejablvitt.view.MaterialFont
+        android:id="@+id/tabIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="2dp"
+        android:text="@string/icon_post_comment"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabTitleView"
+        android:fontFamily="sans-serif-bold"
+        android:textAllCaps="true"
+        android:text="Nyheter"/>
+
+</LinearLayout>

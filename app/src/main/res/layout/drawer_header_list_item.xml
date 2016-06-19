@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#22ffffff"
+    android:gravity="center|left"
+    android:paddingLeft="10dp"
+    android:id="@+id/drawer_list_item_layout">
+
+    <applications.kantedal.hejablvitt.view.MaterialFont
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/drawer_list_item_icon"
+        android:text="@string/icon_comments"
+        android:textSize="18dp"
+        android:layout_marginRight="10dp"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/drawer_list_item_title"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textAllCaps="true"
+        android:text="Min aktivitet"/>
+
+</LinearLayout>

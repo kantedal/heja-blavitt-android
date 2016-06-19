@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/view_crowd_list_item_background"
+    android:layout_width="match_parent"
+    android:layout_height="34dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:id="@+id/view_crowd_list_item_card"
+        android:layout_gravity="center"
+        android:padding="0dp"
+        android:alpha="1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="3dp"
+        app:cardBackgroundColor="#660d00">
+
+        <TextView
+            android:id="@+id/view_crowd_list_item_position_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="0"/>
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/view_crowd_list_item_position"
+        android:layout_width="35dp"
+        android:textSize="16dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/view_crowd_list_item_team"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|left"
+        android:text="Player"
+        android:fontFamily="sans-serif-light"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/view_crowd_list_item_crowd"
+        android:layout_width="100dp"
+        android:textSize="16dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="0"
+        />
+
+</LinearLayout>
